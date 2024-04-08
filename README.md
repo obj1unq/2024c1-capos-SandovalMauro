@@ -71,14 +71,19 @@ Si consultamos la historia de encuentro con los artefactos debería ser:
  4. armadura de acero valyrio
  5. collar divino (de nuevo!)
  
- ## Parte 2 (mensajes con bloques) 
+## Parte 2 (mensajes con bloques) 
 
 ### Comportamiento de los artefactos
 
 Los artefactos son elementos que aportan poder en una batalla al personaje que lo posee
-Pero ojo que cada vez que se combate en una batalla sufren efectos. El poder de pelea
-de rolando, va a depender de un valor base (inicialmente configurable) 
-y de sus artefactos. Tener en cuenta al momento de programar los artefactos que éstos podrían ser
+Pero ojo que cada vez que se combate en una batalla sufren efectos. 
+
+El poder de pelea
+de rolando, va a depender de un valor base (inicialmente configurable)
+ 
+y de sus artefactos.
+
+ Tener en cuenta al momento de programar los artefactos que éstos podrían ser
 usados por otros personajes que aún se han introducido.
   
 - Espada del destino: Las primera vez que se utiliza aporta la misma cantidad que el poder base del personaje, 
