@@ -59,5 +59,9 @@ object rolando{
 	method todasLasPosesiones(){
 		return artefactos.union(hogar.baul())
 	}
+	
+	method poderInvocacion() {
+		return hogar.poderInvocacion(self)
+	}
 
 }
