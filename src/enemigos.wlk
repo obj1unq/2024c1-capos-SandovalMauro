@@ -44,7 +44,8 @@ object erethia {
 	}
 	
 	method hogaresConquistables(capo) {
-		return self.vencibles(capo).map({enemigo => enemigo.hogar()}).asSet()
+		const vencibles = self.vencibles(capo) // #{archibaldo, astra}		
+		return vencibles.map({enemigo => enemigo.hogar()}).asSet() // [palacio, torre] => #{palacio, torre}
 	}
 	
 	method esPoderoso(capo) {
